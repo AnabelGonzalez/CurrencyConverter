@@ -1,0 +1,80 @@
+body {
+  background: #f4f3f3;
+}
+
+.background {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  box-shadow: 1px 10px 20px rgba(12, 12, 12, 0.2);
+  background: #f9f9f9;
+}
+
+.go {
+  min-width: 150px;
+}
+
+.material-icons {
+  font-size: 1.8rem;
+}
+
+.container-custom {
+  max-width: 30rem;
+  margin: auto;
+  background-color: rgba(233, 231, 231, 0.2);
+  padding: 10px;
+}
+
+#result {
+  display: none;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+.converted {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

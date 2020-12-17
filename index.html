@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Currency Converter</title>
+    <meta name="description" content="Currency Converter" />
+    <meta name="author" content="SitePoint" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid bg-danger background p-5">
+      <div class="container text-center">
+        <h1 class="text-light pt-3 display-4">Currency Converter</h1>
+        <span class="lead text-light ">Fixer.io API Project</span>
+      </div>
+
+      <div class="container p-3">
+        <form>
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="form-group">
+                  <label for="amount">Amount</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="amount"
+                    aria-describedby="amount"
+                    placeholder="$"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="form-group">
+                  <label for="from">From</label>
+                  <select class="form-control" id="from">
+                    <option value="USD">USD</option>
+                    <option value="AUD">AUD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="CAD">CAD</option>
+                    <option value="JPY">JPY</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-4">
+                <div class="form-group">
+                  <label for="to">To</label>
+                  <select class="form-control" id="to">
+                    <option value="USD">USD</option>
+                    <option value="AUD">AUD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="CAD">CAD</option>
+                    <option value="JPY">JPY</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 pt-4 text-center">
+              <button class="btn btn-success btn-lg go" type="submit">
+                Go
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="container text-center">
+        <div class="container-custom border-bottom text-center" id="result">
+          <h2 class="text-light">
+            <span id="converted">100</span>&nbsp;<span id="currency">USD</span>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-4 pb-3 text-center">
+      &copy; 2020 Anabel Gonzalez
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
