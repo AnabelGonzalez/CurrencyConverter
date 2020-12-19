@@ -15,8 +15,9 @@ Daily rates are pulled from the API.
 Currency conversion
 
 ### V1:
-Swap Currencies before converting
-Add Currency Country flag
+Swap Currencies before converting  
+Add Currency Country flag  
+
 
 ![V1](http://currency-converter.anabelgonzalez.com/image2.png)
 
