@@ -36,7 +36,7 @@
         <form>
           <div class="jumbotron">
             <div class="row">
-              <div class="col-12 col-md-4">
+              <div class="col-12 col-md-3">
                 <div class="form-group">
                   <label for="amount">Amount</label>
                   <input
@@ -48,30 +48,38 @@
                   />
                 </div>
               </div>
-              <div class="col-12 col-md-4">
-                <div class="form-group">
+              <div class="col-12 col-md-4 d-flex">
+                <div class="form-group currencies">
                   <label for="from">From</label>
                   <select class="form-control" id="from">
                     <option value="USD">USD</option>
                     <option value="AUD">AUD</option>
-                    <option value="EUR">EUR</option>
                     <option value="CAD">CAD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
                     <option value="JPY">JPY</option>
                   </select>
                 </div>
+                <div id="flag-from"></div>
               </div>
-
-              <div class="col-12 col-md-4">
-                <div class="form-group">
+              <div class="col-12 col-md-1 pt-4 text-center">
+                <button class="btn btn-warning btn-lg align-bottom" id="change">
+                  <i class="material-icons mt-1">sync_alt</i>
+                </button>
+              </div>
+              <div class="col-12 col-md-4 d-flex">
+                <div class="form-group currencies">
                   <label for="to">To</label>
                   <select class="form-control" id="to">
                     <option value="USD">USD</option>
                     <option value="AUD">AUD</option>
-                    <option value="EUR">EUR</option>
                     <option value="CAD">CAD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
                     <option value="JPY">JPY</option>
                   </select>
                 </div>
+                <div id="flag-to"></div>
               </div>
             </div>
             <div class="col-12 pt-4 text-center">
@@ -93,7 +101,23 @@
     </div>
 
     <div class="container-fluid pt-4 pb-3 text-center">
-      &copy; 2020 Anabel Gonzalez
+      &copy; 2020 Anabel Gonzalez <br />
+      <small class="text-secondary">
+        Icons made by
+        <a
+          href="https://www.flaticon.com/authors/freepik"
+          title="Freepik"
+          class="text-secondary"
+          >Freepik</a
+        >
+        from
+        <a
+          href="https://www.flaticon.com/"
+          title="Flaticon"
+          class="text-secondary"
+          >www.flaticon.com</a
+        >
+      </small>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
