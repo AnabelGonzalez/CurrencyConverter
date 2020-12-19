@@ -3,7 +3,8 @@ Currency Converter - Fixer.io API Project
 
 ![V)](http://currency-converter.anabelgonzalez.com/image.png)
 
-Javascript API Project. Currency conversion. 
+Javascript API Project.  
+Currency conversion.  
 Daily rates are pulled from the API.
 
 ## Technologies Used:
