@@ -11,6 +11,13 @@ Daily rates are pulled from the API.
 * Javascript
 * Bootstrap
 
+### V0: 
+Currency conversion
+
+### V1:
+Swap Currencies before converting
+Add Currency Country flag
+
 
 To view the live project go to:
 http://currency-converter.anabelgonzalez.com/
