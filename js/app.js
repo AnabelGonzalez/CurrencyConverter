@@ -1,6 +1,5 @@
-let access_key = "66a118c2047898a82d6e126987a6b9df";
+let access_key = "ENTER_ACCESS_KEY";
 
-let flags = ["AUD.png", "USD.png"];
 let flag_from = document.getElementById("flag-from");
 let flag_to = document.getElementById("flag-to");
 let from_input = document.getElementById("from");
