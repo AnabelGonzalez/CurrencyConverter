@@ -13,4 +13,4 @@ Daily rates are pulled from the API.
 
 
 To view the live project go to:
-https://currency-converter.anabelgonzalez.com/
+http://currency-converter.anabelgonzalez.com/
